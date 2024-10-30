@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --background-color: #1A1A1A;
+    --hover-button: #262626;
+    --border-color: #f2f2f2;
+    --primary-text-color: #f2f2f2;
+    --secondary-text-color: #B3B3B3;
+
+    --main-font: 'Roboto Mono', 'sans-serif';
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-color);
+}
+
+.main_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.main_container__titulo{
+    font-family: var(--main-font);
+    font-size: 64px;
+    font-weight: 700;
+    color: var(--primary-text-color);
+}
+.main_container__input{
+    background-color: transparent;
+    border: 1px solid;
+    border-color: var(--border-color);
+    border-radius: 10px;
+    font-family: var(--main-font);
+    font-weight: 300;
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--primary-text-color);
+    padding: 0px 12px 0px 12px;
+}
+
+#video-url{
+    width: 700px;
+    height: 40px;
+}
+
+#video-url:focus{
+    outline: none;
+}
+
+#download_button{
+    width: 200px;
+    height: 40px;
+}
+
+#download_button:hover{
+    background-color: var(--hover-button);
+}
+
+.main_container__version{
+    font-family: var(--main-font);
+    font-weight: 300px;
+    font-size: 14px;
+    color: var(--secondary-text-color);
+}
