@@ -10,9 +10,33 @@
 <body>
     <main class="main_container">
         <h1 class="main_container__titulo">VIDEO DOWNLOADER</h1>
-        <input class="main_container__input" id="video-url" type="url" placeholder="coloque a url do video" autofocus>
-        <button class="main_container__input" id="download_button">download</button>
-        <p class="main_container__version">version 0.1</p>
+        <div class="main_container__video-url">
+            <input class="main_container__input" id="video-url" type="url" placeholder="coloque a url do video" autofocus>
+            <select class="main_container__selector" name="output" id="output-select">
+                <option value="mp4">MP4</option>
+                <option value="mp3">MP3</option>
+                <option value="avi">AVI</option>
+                <option value="mkv">MKV</option>
+                <option value="gif">GIF</option>
+                <option value="ogg">OGG</option>
+            </select>
+            <select class="main_container__selector" name="quality" id="quality-select">
+                <option value="best">Best Quality</option>
+                <option value="best[height<=720]">Medium Quality</option>
+                <option value="worst">Poor Quality</option>
+            </select>
+        </div>
+        <div>
+            <button class="main_container__input" id="download-btn">download</button>
+            <!-- <select class="main_container__selector" name="quantity" id="quantity-select">
+                <option value="1x">1x</option>
+                <option value="2x">2x</option>
+                <option value="3x">3x</option>
+                <option value="4x">4x</option>
+                <option value="5x">5x</option>
+            </select> -->
+        </div>
+        <p class="main_container__version">version 0.1.3</p>
     </main>
 </body>
 </html>

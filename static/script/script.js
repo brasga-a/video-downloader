@@ -1,6 +1,6 @@
-document.getElementById('download_button').addEventListener('click', function() { // ID corrigido para download_button
+document.getElementById('download-btn').addEventListener('click', function() { 
     const videoUrl = document.getElementById('video-url').value;
-
+    
     fetch('/download', {
         method: 'POST',
         headers: {
