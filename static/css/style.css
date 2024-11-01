@@ -108,11 +108,16 @@ body{
     outline: none;
 }
 
+.main_container__selector:hover{
+    background-color: var(--hover-button);
+}
+
 #output-select{
     height: 42px;
     width: 48px;
     text-align: center;
 }
+
 
 #quality-select{
     height: 42px;
