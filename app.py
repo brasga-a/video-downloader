@@ -12,12 +12,12 @@ def index():
 @app.route('/download', methods=['POST'])
 
 def request_download():
-    #get data from request.json
     video_url = request.json['url']
     quality_url = request.json['quality']
     output_url = request.json['output']
 
-    #create url object
+    #is_valid_url desabilitado temporariamente, ele não reconhece o vimeo e gera o erro 'URL inválida'
+
     #if(is_valid_url(video_url)):
     #    currentData = Data(video_url, quality_url, output_url)
     #elif(video_url == ""):
