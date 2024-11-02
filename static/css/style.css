@@ -125,3 +125,10 @@ body{
     padding: 0px 8px;
     text-align: center;
 }
+
+.footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}

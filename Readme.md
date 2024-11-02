@@ -23,7 +23,7 @@ A seguir o passo a passo para baixa-lo
 
 ### Windows
  - Baixe o [FFmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-win64-gpl.zip) através do repositório oficial no [github](https://github.com/BtbN/FFmpeg-Builds/releases)
- - Extraia a pasta no diretório **C:\**
+ - Extraia a pasta no diretório **C:**
  - Renomeie a pasta para ffmpeg e abra as variáveis de ambiente do windows
  - Adicione ao path a seguinte linha **C:\ffmpeg\bin** e reinicie a IDE
  
