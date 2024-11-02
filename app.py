@@ -28,7 +28,6 @@ def request_download():
     currentData = Data(video_url, quality_url, output_url)
 
     try:
-        
         currentData.extract_data()
         return jsonify({"status": "success", "message": "Vídeo baixado!"})
     except:
